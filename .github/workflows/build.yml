@@ -32,7 +32,7 @@ jobs:
               with:
                   context: .
                   push: true
-                  tags: ghcr.io/erfjab/pasarguard:master
+                  tags: ghcr.io/erfjabs/pasarguard:master
                   cache-from: type=gha
                   cache-to: type=gha,mode=max
 
